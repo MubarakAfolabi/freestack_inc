@@ -34,7 +34,7 @@ export default function Footer() {
             <Link href="/">Home</Link>
             <Link href="/#">Services</Link>
             <Link href="/#">Portfolio</Link>
-            <Link href="/#">About</Link>
+            <Link href="/about-us">About</Link>
           </nav>
         </div>
         <div className="flex flex-col gap-6 max-w-75">
