@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <section className="flex flex-col gap-6 bg-[hsla(210,40%,98%,1)] p-16">
+    <section className="flex flex-col gap-6 bg-[hsla(210,40%,98%,1)] p-16 mb-10">
       <div className="flex justify-between items-center">
         <h2 className="text-3xl font-bold">Selected Work</h2>
         <Link
