@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="flex flex-col gap-6 min-h-120 bg-[url('/hero-background.png')] bg-cover bg-center p-16">
-      <div className="bg-[hsla(207,90%,61%,0.1)] w-fit p-2 rounded-full">
+      <div className="bg-[hsla(207,90%,61%,0.1)] w-fit py-2 px-4 rounded-full">
         END-TO-END DIGITAL AGENCY
       </div>
 
