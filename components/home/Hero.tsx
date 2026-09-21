@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="flex flex-col gap-2 md:gap-6 min-h-120 md:bg-[url('/hero-background.png')] md:bg-cover md:bg-center p-4 md:p-16">
+    <section className="flex flex-col gap-2 md:gap-6 min-h-120 bg-[url('/hero-background.png')] md:bg-cover bg-left md:bg-center p-4 md:p-16">
       <div className="text-sm md:text-md bg-[hsla(207,90%,61%,0.1)] w-fit py-1 px-2 md:py-2 md:px-4 rounded-full">
         END-TO-END DIGITAL AGENCY
       </div>
