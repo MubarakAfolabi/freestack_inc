@@ -10,7 +10,7 @@ export default function Hero() {
         <span className="text-[hsla(212,80%,42%,1)]">Design to Deployment</span>
       </h1>
 
-      <p className="text-[hsla(215,16%,47%,1)] max-w-2xl">
+      <p className="text-[hsla(215,16%,47%,1)] md:max-w-2xl">
         We craft intuitive user interfaces and architect robust software
         solutions, turning your complex problems into scalable digital products.
       </p>
