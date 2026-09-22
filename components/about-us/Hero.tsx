@@ -7,7 +7,7 @@ export default function Hero() {
         ABOUT US
       </div>
 
-      <div className="flex items-center gap-12 justify-between">
+      <div className="flex flex-col md:flex-row md:items-center gap-12 justify-between">
         <div className="flex-2 flex flex-col gap-2 md:gap-6">
           <h1 className="text-5xl/15 md:text-6xl/18 font-bold md:max-w-2xl">
             Architects of the digital experience.
@@ -21,7 +21,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="hidden flex-1 md:flex items-center justify-center bg-[hsla(212,52%,14%,1)] rounded-xl">
+        <div className="flex-1 flex items-center justify-center bg-[hsla(212,52%,14%,1)] rounded-xl">
           <Image src="/logo-white.png" height={400} width={400} alt="Logo" />
         </div>
       </div>
