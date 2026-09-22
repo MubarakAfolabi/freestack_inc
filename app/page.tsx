@@ -1,4 +1,4 @@
-import CallToAction from "@/components/home/CallToAction";
+import CallToAction from "@/components/layout/CallToAction";
 import Hero from "@/components/home/Hero";
 import Portfolio from "@/components/home/Portfolio";
 import Services from "@/components/home/Services";
