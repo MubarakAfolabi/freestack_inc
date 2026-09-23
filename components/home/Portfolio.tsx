@@ -4,9 +4,11 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <section className="flex flex-col gap-6 bg-[hsla(210,40%,98%,1)] p-4 md:p-16 mb-10">
+    <section className="flex flex-col gap-6 bg-[hsla(210,40%,98%,1)] p-4 md:p-8 lg:p-16 mb-10">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl md:text-3xl font-bold">Selected Work</h2>
+        <h2 className="font-montserrat text-2xl md:text-3xl font-bold">
+          Selected Work
+        </h2>
         <Link
           href="/#"
           className="flex items-center gap-2 md:text-lg text-[hsla(212,80%,42%,1)] hover:underline"
@@ -41,7 +43,7 @@ export default function Portfolio() {
             <div className="text-sm md:text-md bg-[hsla(207,90%,61%,0.1)] py-1 px-2 w-fit md:py-2 md:px-4 rounded-full">
               Ecommerce. Branding
             </div>
-            <h3 className="text-xl md:text-2xl font-bold">
+            <h3 className="font-montserrat text-xl md:text-2xl font-bold">
               Humanity Fashion Website
             </h3>
             <p className="text-sm md:text-md text-[hsla(215,16%,47%,1)]">

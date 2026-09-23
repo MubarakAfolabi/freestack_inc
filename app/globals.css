@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
 body {
   background-color: hsla(0, 0%, 100%, 1);
 }

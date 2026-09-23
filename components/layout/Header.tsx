@@ -43,7 +43,7 @@ export default function Header() {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
 
   return (
-    <header className="flex items-center justify-between py-1 p-4 md:py-4 md:px-16">
+    <header className="flex items-center justify-between gap-4 py-1 p-4 md:px-8 lg:px-16">
       <div className="relative flex shrink-0 items-center gap-4">
         <button
           ref={menuButtonRef}
@@ -75,13 +75,13 @@ export default function Header() {
         </Link>
       </div>
 
-      <ul className="hidden md:flex items-center justify-between gap-14">
+      <ul className="hidden md:flex items-center justify-between gap-10">
         {navItems.map((item) => {
           return (
             <li key={item.id}>
               <Link
                 href={item.href}
-                className={`${item.href === pathname ? "border-b-2" : "text-[hsla(215,16%,47%,1)]"} p-1 text-lg`}
+                className={`${item.href === pathname ? "border-b-2" : "text-[hsla(215,16%,47%,1)]"} p-1 lg:text-lg`}
               >
                 {item.name}
               </Link>
@@ -90,7 +90,7 @@ export default function Header() {
         })}
       </ul>
 
-      <button className="bg-[hsla(212,80%,42%,1)] md:text-lg text-white font-bold p-2 md:p-4 rounded-2xl cursor-pointer">
+      <button className="bg-[hsla(212,80%,42%,1)] md:text-lg text-white p-2 lg:p-4 rounded-2xl cursor-pointer">
         Get Started
       </button>
     </header>

@@ -34,9 +34,11 @@ export default function Services() {
   ];
 
   return (
-    <section className="flex flex-col gap-4 md:gap-6 bg-[hsla(210,40%,98%,1)] p-4 md:p-16">
+    <section className="flex flex-col gap-4 md:gap-6 bg-[hsla(210,40%,98%,1)] p-4 md:p-8 lg:p-16">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl md:text-3xl font-bold">Our Services</h2>
+        <h2 className="font-montserrat text-2xl md:text-3xl font-bold">
+          Our Services
+        </h2>
         <Link
           href="/#"
           className="flex items-center gap-2 md:text-lg text-[hsla(212,80%,42%,1)] hover:underline"
@@ -59,7 +61,7 @@ export default function Services() {
                 <Icon className="size-5 md:size-6" />
               </div>
               <div className="flex flex-col gap-2">
-                <h3 className="text-xl md:text-2xl font-bold">
+                <h3 className="font-montserrat text-xl md:text-2xl font-bold">
                   {service.title}
                 </h3>
                 <p className="text-sm md:text-md text-[hsla(215,16%,47%,1)]">
