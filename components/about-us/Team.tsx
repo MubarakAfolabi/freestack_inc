@@ -24,21 +24,28 @@ export default function Team() {
   ];
 
   return (
-    <section className="bg-[url('/about-us/team-background.jpg')] bg-cover bg-center flex flex-col gap-6 p-4 mb-10">
-      <h2 className="text-white text-2xl font-bold">Meet The Team</h2>
+    <section className="bg-[url('/about-us/team-background.jpg')] bg-cover bg-center flex flex-col gap-6 p-4 md:p-8 lg:p-16 mb-10">
+      <h2 className="font-montserrat text-white text-2xl font-bold">
+        Meet The Team
+      </h2>
 
-      <ul className="flex flex-col gap-6">
+      <ul className="flex flex-wrap lg:justify-between gap-6">
         {members.map((member, index) => {
           return (
             <li
               key={index}
-              className="bg-[hsla(212,52%,14%,1)] flex flex-col gap-4 p-12 rounded-2xl"
+              className="bg-[hsla(212,52%,14%,1)] flex flex-col gap-4 p-12 rounded-2xl w-full lg:w-[calc(50%-12px)] max-w-[550px]"
             >
               <div className="bg-[hsla(0,0%,85%,1)] h-60 w-full rounded-2xl"></div>
-              <h3 className="text-white text-xl font-bold">{member.name}</h3>
-              <p className="text-[hsla(207,90%,61%,1)] text-bold">
+
+              <h3 className="font-montserrat text-white text-xl font-bold">
+                {member.name}
+              </h3>
+
+              <p className="text-[hsla(207,90%,61%,1)] font-bold">
                 {member.title}
               </p>
+
               <p className="text-[hsla(0,0%,100%,0.8)]">
                 Architecting seamless user experiences and scalable design
                 systems for modern sports platforms. (short Bio)

@@ -34,10 +34,10 @@ export default function CoreAreas() {
   ];
 
   return (
-    <section className="bg-[hsla(210,40%,98%,1)] flex flex-col gap-6 p-4">
-      <h2 className="text-2xl font-bold">Our Core Areas</h2>
+    <section className="bg-[hsla(210,40%,98%,1)] flex flex-col gap-6 p-4 md:p-8 lg:p-16">
+      <h2 className="font-montserrat text-2xl font-bold">Our Core Areas</h2>
 
-      <ul className="flex flex-col gap-6">
+      <ul className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {areas.map((area, index) => {
           const Icon = area.icon;
 
@@ -49,7 +49,11 @@ export default function CoreAreas() {
               <div className="bg-[hsla(207,90%,61%,0.1)] flex items-center justify-center h-10 w-10 rounded-full">
                 <Icon />
               </div>
-              <h3 className="text-xl font-bold">{area.title}</h3>
+
+              <h3 className="font-montserrat text-xl font-bold">
+                {area.title}
+              </h3>
+
               <p>{area.description}</p>
             </li>
           );
