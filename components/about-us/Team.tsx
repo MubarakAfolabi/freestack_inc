@@ -34,7 +34,7 @@ export default function Team() {
           return (
             <li
               key={index}
-              className="bg-[hsla(212,52%,14%,1)] flex flex-col gap-4 p-12 rounded-2xl w-full lg:w-[calc(50%-12px)] max-w-[550px]"
+              className="bg-[hsla(212,52%,14%,1)] flex flex-col gap-4 p-12 rounded-2xl w-full lg:w-[calc(50%-12px)] max-w-137.5"
             >
               <div className="bg-[hsla(0,0%,85%,1)] h-60 w-full rounded-2xl"></div>
 
