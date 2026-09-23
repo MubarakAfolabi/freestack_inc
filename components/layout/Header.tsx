@@ -19,14 +19,14 @@ export default function Header() {
 
   const navItems = [
     { id: 1, name: "Home", href: "/" },
-    { id: 2, name: "Services", href: "/#" },
+    { id: 2, name: "Services", href: "/services" },
     { id: 3, name: "Portfolio", href: "/#" },
     { id: 4, name: "About Us", href: "/about-us" },
   ];
 
   const dropdownNavItems = [
     { id: 1, name: "Home", href: "/", icon: House },
-    { id: 2, name: "Services", href: "/#", icon: BriefcaseBusiness },
+    { id: 2, name: "Services", href: "/services", icon: BriefcaseBusiness },
     { id: 3, name: "Portfolio", href: "/#", icon: FolderOpen },
     { id: 4, name: "About Us", href: "/about-us", icon: Users },
   ];
@@ -43,7 +43,7 @@ export default function Header() {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
 
   return (
-    <header className="flex items-center justify-between gap-4 py-1 p-4 md:px-8 lg:px-16">
+    <header className="h-20 flex items-center justify-between gap-4 py-1 p-4 md:px-8 lg:px-16">
       <div className="relative flex shrink-0 items-center gap-4">
         <button
           ref={menuButtonRef}

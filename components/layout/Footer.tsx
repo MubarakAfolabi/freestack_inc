@@ -32,7 +32,7 @@ export default function Footer() {
           <h2 className="text-white text-2xl font-bold">Quick Links</h2>
           <nav className="flex flex-col gap-4 text-[hsla(215,16%,47%,1)]">
             <Link href="/">Home</Link>
-            <Link href="/#">Services</Link>
+            <Link href="/services">Services</Link>
             <Link href="/#">Portfolio</Link>
             <Link href="/about-us">About</Link>
           </nav>
